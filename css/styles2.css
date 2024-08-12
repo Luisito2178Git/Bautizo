@@ -190,3 +190,21 @@ hr {
     height: 35rem;
     border-radius: 2rem ;
 }
+
+.invite{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.boton-invite{
+    text-decoration: none;
+    background-color: red;
+    border: none;
+    box-shadow: 2rem;
+    padding: 3rem;
+    text-align: center;
+    color: yellow;
+}
