@@ -116,7 +116,7 @@ hr {
 .countdown{
     display: flex;
     justify-content: space-evenly;
-    width: 70%;
+    width: 75%;
     flex-wrap: wrap;
     
 }
