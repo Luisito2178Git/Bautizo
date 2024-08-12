@@ -39,7 +39,6 @@ audio.src = "/musicaFondo/Schubert - Ave Maria.mp3"
 
 audio.play().catch(error => {
     console.log('Autoplay no permitido:', error);
-    audio.play();
 });
 
 audio.addEventListener('ended', function() {

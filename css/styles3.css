@@ -1,0 +1,40 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    /*background-image: url(/img/fondo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+
+
+.diversion-title{
+    text-align: center;
+
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.boton{
+    width: 12rem; /* Ajusta el tamaño según tus necesidades */
+    height: 12rem; /* Asegúrate de que la altura sea igual al ancho para un círculo perfecto */
+    border-radius: 50%;
+}
+
+
+.apartado-bau{
+    padding: 5rem;
+    
+}
+
+.apartado-bau p{
+    text-align: center;
+}
