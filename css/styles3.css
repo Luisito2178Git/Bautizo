@@ -19,7 +19,8 @@ body{
 .contenedor{
     display: flex;
     justify-content: center;
-
+    padding: 4rem;
+    width: 80%;
 }
 
 .boton{
