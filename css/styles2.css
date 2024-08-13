@@ -204,16 +204,18 @@ hr {
 .invite{
     display: flex;
     justify-content: center;
+    margin-bottom: 3rem;
 }
 
 
 
 .boton-invite{
     text-decoration: none;
-    background-color: red;
+    font-family: 'Comics', sans-serif;
+    background-color: #29d9e6;
     border: none;
-    box-shadow: 2rem;
     padding: 3rem;
     text-align: center;
-    color: yellow;
+    color: white;
+    border-radius: 1rem;
 }
