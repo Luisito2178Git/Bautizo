@@ -126,8 +126,8 @@ body{
 
 .tercera-seccion{
     display: grid;
-    grid-template-columns: 30% 30% 33%;
-    max-width: 80%;
+    grid-template-columns: 33% 33% 33%;
+    max-width: 90%;
     margin: 0 auto;
     column-gap: 1rem;
 }
