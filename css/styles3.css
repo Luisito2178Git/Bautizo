@@ -22,7 +22,6 @@ body{
 
 }
 
-
 .boton{
     width: 12rem; /* Ajusta el tamaño según tus necesidades */
     height: 12rem; /* Asegúrate de que la altura sea igual al ancho para un círculo perfecto */
@@ -37,4 +36,10 @@ body{
 
 .apartado-bau p{
     text-align: center;
+}
+
+.letra{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 3rem;
 }
