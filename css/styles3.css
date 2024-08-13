@@ -4,9 +4,8 @@ html{
 
 body{
     font-size: 16px;
-    background: rgb(76,69,193);
-    background: linear-gradient(90deg, rgba(76,69,193,1) 0%, rgba(9,9,121,0.7105217086834734) 48%, rgba(0,212,255,1) 100%);
-}
+    background: rgb(187,191,190);
+    background: linear-gradient(90deg, rgba(187,191,190,1) 40%, rgba(41,217,230,1) 60%);}
 
 
 .diversion-title{
@@ -24,7 +23,6 @@ body{
 .boton{
     width: 12rem; /* Ajusta el tamaño según tus necesidades */
     height: 12rem; /* Asegúrate de que la altura sea igual al ancho para un círculo perfecto */
-    border-radius: 50%;
 }
 
 
