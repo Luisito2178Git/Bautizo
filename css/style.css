@@ -172,6 +172,17 @@ hr {
     border-radius: 2rem;
 }
 
+#menu{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px 15px;
+    background-color: rgba(155, 145, 142, 0.651);
+    color: white;
+    border: none;
+    border-radius: 2rem;
+}
+
 .cuarta-seccion{
     text-align: center;
 }

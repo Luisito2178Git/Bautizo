@@ -179,6 +179,17 @@ hr {
     border-radius: 2rem;
 }
 
+#menu{
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    padding: 10px 15px;
+    background-color: rgba(238, 76, 27, 0.651);
+    color: white;
+    border: none;
+    border-radius: 2rem;
+}
+
 .imagen-lugar{
     display: flex;
     justify-content: center;
