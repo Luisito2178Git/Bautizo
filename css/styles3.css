@@ -5,9 +5,8 @@ html{
 body{
     font-size: 16px;
     background: rgb(187,191,190);
-    background: linear-gradient(90deg, rgba(187,191,190,1) 40%, rgba(41,217,230,1) 60%);
+    background: linear-gradient(90deg, rgba(187,191,190,1) 50%, rgba(41,217,230,1) 60%);
 }
-
 
 .diversion-title{
     text-align: center;
@@ -15,21 +14,14 @@ body{
 }
 
 .contenedor{
-    display: flex;
-    justify-content: center;
-    padding: 4rem;
-    width: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-items: center;
 }
 
 .boton{
     width: 12rem; /* Ajusta el tamaño según tus necesidades */
     height: 12rem; /* Asegúrate de que la altura sea igual al ancho para un círculo perfecto */
-}
-
-
-.apartado-bau{
-    padding: 3rem;
-    
 }
 
 .apartado-bau p{
