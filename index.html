@@ -28,7 +28,10 @@
         <section class="countdown">
             <h2 class="diversion-title">No Faltes</h2>
         </section>
-
+        <section>
+            <p>No sabes a cual ir primero? te puedo ayudar</p>
+            <button id="random">SORPRENDEME</button>
+        </section>
         
     </main>
 
@@ -36,6 +39,15 @@
         <p>&copy; 2024 Fiesta Inc.</p>
     </footer> -->
 
-   
+   <script>
+        const urls = ['bautizo.html', 'comic.html'];
+        const random = document.getElementById('random');
+
+        random.addEventListener('click',function(){
+            const randomIndex = Math.floor(Math.random() * urls.length); //La función Math.floor() redondea el número decimal hacia abajo al entero más cercano. Por ejemplo, si el resultado de Math.random() * urls.length es 2.7, Math.floor() lo redondeará a 2.
+            const selectedUrl = urls[randomIndex];
+            window.location.href = selectedUrl;
+        });
+   </script>
 </body>
 </html>
