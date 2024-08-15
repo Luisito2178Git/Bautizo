@@ -1,35 +1,70 @@
-html{
-    font-size: 62.5%;
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
-    font-size: 16px;
-    background: rgb(187,191,190);
-    background: linear-gradient(90deg, rgba(187,191,190,1) 50%, rgba(41,217,230,1) 60%);
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
 }
 
-.diversion-title{
-    text-align: center;
-
-}
-
-.contenedor{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    justify-items: center;
-}
-
-.boton{
-    width: 12rem; /* Ajusta el tamaño según tus necesidades */
-    height: 12rem; /* Asegúrate de que la altura sea igual al ancho para un círculo perfecto */
-}
-
-.apartado-bau p{
+/* Header */
+header {
+    background: #ffcc00;
+    color: #fff;
+    padding: 20px;
     text-align: center;
 }
 
-.letra{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bolder;
-    font-size: 2rem;
+.welcome-message {
+    font-size: 1.2em;
+    margin-top: 10px;
 }
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.apartado-bau {
+    text-align: center;
+}
+
+.boton {
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.letra {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+
+
+
+/* Footer */
+/* footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+} */
