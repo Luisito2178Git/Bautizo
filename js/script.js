@@ -36,6 +36,12 @@ let interval = setInterval(function(){
 const player = document.getElementById('player');
 const audio = new Audio();
 audio.src = "/musicaFondo/Schubert - Ave Maria.mp3"
+const playIcon = `<svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M8 5v14l11-7L8 5z" fill="currentColor"/>
+</svg>`;
+const pauseIcon = `<svg width="25" height="25"viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M6 5h4v14H6V5zm8 0h4v14h-4V5z" fill="currentColor"/>
+</svg>`;
 
 audio.play().catch(error => {
     console.log('Autoplay no permitido:', error);
@@ -48,8 +54,11 @@ audio.addEventListener('ended', function() {
 
 player.addEventListener('click', function(){
     if(audio.paused){
-        audio.play()
+        audio.play();
+        player.innerHTML = pauseIcon; // Cambia a ícono de pausa
+
     }else{
-        audio.pause()
+        audio.pause();
+        player.innerHTML = playIcon; // Cambia a ícono de play
     }
 })
