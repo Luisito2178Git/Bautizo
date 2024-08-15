@@ -54,17 +54,6 @@ body{
     height: 12rem; /* Asegúrate de que la altura sea igual al ancho para un círculo perfecto */
 }
 
-
-.flechas{
-    width: 8rem; /* Ajusta el tamaño según tus necesidades */
-    height: 8rem; /* Asegúrate de que la altura sea igual al ancho para un círculo perfecto */
-    position: absolute;
-    bottom: 5rem;
-    left: 10rem;
-    top: 74rem;
-}
-
-
 .disfraz{
     display: flex;
     justify-content: center;
