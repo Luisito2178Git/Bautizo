@@ -1,8 +1,7 @@
 const $days = document.getElementById('days'),
 $hours = document.getElementById('hours'),
 $minutes = document.getElementById('minutes'),
-$seconds = document.getElementById('seconds'),
-$finalMessage = document.querySelector('.final-sms');
+$seconds = document.getElementById('seconds');
 
 //Fecha a futuro
 const countdownDate = new Date('09 08, 2024 15:00:00').getTime();
@@ -25,15 +24,9 @@ let interval = setInterval(function(){
     $hours.innerHTML = hours;
     $minutes.innerHTML = minutes;
     $seconds.innerHTML = ('0' + seconds).slice(-2);
-
-    //Cuando llegue a 0
-    if(distance < 0){
-        clearInterval(interval);
-        $finalMessage.style.transform = 'translateY(0)';
-    }
 }, 1000);
 
-const player = document.getElementById('player');
+const player = document.getElementById('player-comic');
 const audio = new Audio();
 audio.src = "/musicaFondo/Joker 2019 Canción  Song (Original Soundtrack) Escena Escaleras  scene.mp3"
 const playIcon = `<svg width="25" height="25" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

@@ -5,20 +5,23 @@
     box-sizing: border-box;
 }
 
-body {
+.background-index{
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
 }
 
-/* Header */
-header {
+.head-index{
     background: #ffcc00;
     color: #fff;
     padding: 20px;
     text-align: center;
 }
+
+
+
+
 
 .welcome-message {
     font-size: 1.2em;
@@ -26,12 +29,12 @@ header {
 }
 
 /* Main Content */
-main {
+.main-index{
     padding: 20px;
 }
 
 /* Section Styles */
-section {
+.marg{
     margin-bottom: 20px;
 }
 
@@ -41,11 +44,11 @@ section {
     justify-content: space-around;
 }
 
-.apartado-bau {
+.apartado-bau-index {
     text-align: center;
 }
 
-.boton {
+.boton-index{
     width: 150px;
     height: auto;
     transition: transform 0.3s ease;

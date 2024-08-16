@@ -1,8 +1,7 @@
 const $days = document.getElementById('days'),
 $hours = document.getElementById('hours'),
 $minutes = document.getElementById('minutes'),
-$seconds = document.getElementById('seconds'),
-$finalMessage = document.querySelector('.final-sms');
+$seconds = document.getElementById('seconds');
 
 //Fecha a futuro
 const countdownDate = new Date('09 08, 2024 12:00:00').getTime();
@@ -25,12 +24,6 @@ let interval = setInterval(function(){
     $hours.innerHTML = hours;
     $minutes.innerHTML = minutes;
     $seconds.innerHTML = ('0' + seconds).slice(-2);
-
-    //Cuando llegue a 0
-    if(distance < 0){
-        clearInterval(interval);
-        $finalMessage.style.transform = 'translateY(0)';
-    }
 }, 1000);
 
 const player = document.getElementById('player');
