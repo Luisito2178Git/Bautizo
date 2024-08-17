@@ -433,6 +433,11 @@ hr {
     }
 }
 
+.pie-de-pagina{
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, sans-serif;
+}
 
 #player{
     position: fixed;
@@ -466,8 +471,6 @@ hr {
     border: none;
     border-radius: 2rem;
 }
-
-
 
 #menu-comic{
     position: fixed;
