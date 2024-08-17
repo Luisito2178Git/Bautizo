@@ -18,9 +18,10 @@ html{
     background-position: center; 
 }
 
-@media (min-width: 768px) {
+@media (min-width: 565px) {
     .background-comic{
-        background-repeat: repeat-x;
+        background-image: url('/img/back.webp');
+        background-size: cover;
     }
 }
 
@@ -32,7 +33,7 @@ html{
     color: #333;
     line-height: 1.6;
     background: rgb(163,162,176);
-background: radial-gradient(circle, rgba(163,162,176,0.9525398511565133) 0%, rgba(195,11,24,0.4750117612688729) 100%);
+    background: radial-gradient(circle, rgba(163,162,176,0.9525398511565133) 0%, rgba(195,11,24,0.4750117612688729) 100%);
 
 }
 
@@ -169,6 +170,15 @@ background: radial-gradient(circle, rgba(163,162,176,0.9525398511565133) 0%, rgb
     font-size: 6rem;
     font-family: 'Comics', sans-serif;
 
+}
+
+@media (min-width: 565px) {
+    .title-comic{
+        font-weight: bolder;
+        font-size: 6rem;
+        font-family: 'Comics', sans-serif;
+        color: rgb(79, 167, 79);
+    }
 }
 
 .coment-comic{
