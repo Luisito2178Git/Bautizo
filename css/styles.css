@@ -31,13 +31,20 @@ html{
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
+    background: rgb(163,162,176);
+background: radial-gradient(circle, rgba(163,162,176,0.9525398511565133) 0%, rgba(195,11,24,0.4750117612688729) 100%);
+
 }
 
 .head-index{
-    background: #ffcc00;
     color: #fff;
     padding: 2rem;
     text-align: center;
+}
+
+.title-index{
+    font-weight: 900;
+    font-style: italic;
 }
 
 .welcome-message {
@@ -54,8 +61,9 @@ html{
 }
 
 .buttons {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
 }
 
 .apartado-bau-index {
@@ -68,14 +76,28 @@ html{
     transition: transform 0.3s ease;
 }
 
-.letra{
-    font-size: 1.2em;
-    margin-top: 10px;
+.letra-bau{
+    font-size: 3rem;
+    font-family: Arial, sans-serif;
+}
+
+.letra-cumple{
+    font-size: 3rem;
+    font-family: Arial, sans-serif;
+}
+
+.centrar{
+    display: grid;
+    place-items: center;
+}
+
+.diversion-title{
+    text-align: center;
 }
 
 .menu-final{
-    display: flex;
-    justify-content: center;
+    display: grid;
+    place-items: center;
 }
 
 #random{
@@ -83,6 +105,11 @@ html{
     background-color: yellow;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 2rem;
+    border-radius: 2rem;
+}
+
+#random:hover{
+    background-color: orange;
 }
 
 /*TERMINA INDEX*/
@@ -369,11 +396,6 @@ hr {
     }
 }
 
-.maps{
-    display: flex;
-    justify-content: center;
-}
-
 .map-event1{
     width: 35rem;
     height: 35rem;
@@ -381,10 +403,12 @@ hr {
 }
 
 
-.imagen-lugar{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5rem;
+@media (min-width: 768px) {
+    .contendor-comic{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
 }
 
 .cuarta-seccion{
