@@ -185,7 +185,7 @@ html{
 }
 
 @media (min-width: 565px) {
-    body{
+    .background-comic{
         color: #FFFFFF;
         text-shadow: 2px 2px 5px #000000;
     }
