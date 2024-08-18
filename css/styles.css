@@ -101,6 +101,13 @@ html{
     place-items: center;
 }
 
+@media (min-width: 1440px) {
+    .menu-final-2{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
 #random{
     all: unset;
     background-color: yellow;
@@ -493,3 +500,10 @@ hr {
     border-radius: 2rem;
 }
 
+@media (min-width: 1440px) {
+    body{
+        width: 80%;
+        margin: 0 auto;
+        font-size: 10rem;
+    }
+}
